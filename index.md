@@ -4,5 +4,5 @@ I am currently an engineering student with aspirations to change the mentality o
 I will show you basic tips that can help you at the beginning of this journey called **knowledge.**
 
 Do you want to know more about me?
-* Twitter -> [@robert_raf!](https://twitter.com/robert_raf)
-* Instagram -> [@robert_raf!](https://www.instagram.com/robert_raf)
+* Twitter -> [@robert_raf](https://twitter.com/robert_raf)
+* Instagram -> [@robert_raf](https://www.instagram.com/robert_raf)
