@@ -1,3 +1,6 @@
 {
-  "projectName": "robertraf.github.io"
+  "projectName": "robertraf.github.io",
+  "assetsFolder": "/assets",
+  "targets": [],
+  "frameworks": []
 }
