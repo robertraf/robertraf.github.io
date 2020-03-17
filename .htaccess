@@ -6,6 +6,4 @@ RewriteEngine On
 </IfModule>
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^/?index(?:/)?$ index.html [QSA,NC,L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^/?testing(?:/)?$ testing.php [QSA,NC,L]
 ## End Wappler routing
