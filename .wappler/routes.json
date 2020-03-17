@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "path": "/index",
+      "url": "/index.html"
+    },
+    {
+      "path": "/testing",
+      "url": "/testing.php"
+    }
+  ]
+}
