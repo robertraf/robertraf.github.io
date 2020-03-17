@@ -2,5 +2,27 @@
   "projectName": "robertraf.github.io",
   "assetsFolder": "/assets",
   "targets": [],
-  "frameworks": []
+  "frameworks": [
+    {
+      "name": "appConnect",
+      "type": "local"
+    },
+    {
+      "name": "jquery_slim_34",
+      "type": "cdn"
+    },
+    {
+      "name": "fontawesome_4",
+      "type": "cdn"
+    },
+    {
+      "name": "bootstrap4",
+      "type": "cdn"
+    }
+  ],
+  "projectServerModel": "PHP",
+  "useRouting": true,
+  "addBase": true,
+  "routingHandler": "apache",
+  "styleFile": "/css/style.css"
 }
