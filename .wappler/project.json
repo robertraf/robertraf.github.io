@@ -24,5 +24,6 @@
   "useRouting": true,
   "addBase": true,
   "routingHandler": "apache",
-  "styleFile": "/css/style.css"
+  "styleFile": "/css/style.css",
+  "projectLinksType": "site"
 }
