@@ -1,9 +1,0 @@
-
-## Wappler routing
-RewriteEngine On
-<IfModule mod_negotiation.c>
-    Options -MultiViews
-</IfModule>
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^/?index(?:/)?$ index.html [QSA,NC,L]
-## End Wappler routing
