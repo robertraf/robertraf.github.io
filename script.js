@@ -1,33 +1,31 @@
-const getDOM = selector => () => {
+const getDOM = (selector) => () => {
   return document.querySelector(selector);
 };
 
-document.title = `${main.name} | ${main.role}`
+document.title = `${main.name} | ${main.role}`;
 
 // Values DOM nodes
 const dom = {
   main: {
-    name: getDOM('#main #name'),
-    mail: getDOM('#main #mail'),
-    img: getDOM('#main #img'),
-    role: getDOM('#main #role'),
-    connects: getDOM('#main #connects'),
-    links: getDOM('#main #links')
+    name: getDOM("#main #name"),
+    mail: getDOM("#main #mail"),
+    img: getDOM("#main #img"),
+    role: getDOM("#main #role"),
+    connects: getDOM("#main #connects"),
+    links: getDOM("#main #links"),
   },
-  projects: getDOM('#projects'),
-  logo: getDOM('#projects-page #logo')
+  projects: getDOM("#projects"),
+  logo: getDOM("#projects-page #logo"),
 };
 
 function assignDOM(dom, value, options) {
-  console.log('dom, value, img:', dom, value, img);
-
   if (options && options.isImg) {
     dom.src = value;
     return;
   }
 
   if (options && options.isAdjacent) {
-    dom.insertAdjacentHTML('afterbegin', value);
+    dom.insertAdjacentHTML("afterbegin", value);
   }
 
   dom.innerHTML = value;
@@ -50,14 +48,17 @@ const connectsDOM = main.connects
     ({ name, iconName, link }) =>
       `<a href=${link} target="_blank"><ion-icon name="${iconName}" title="${name}"></ion-icon></a>`
   )
-  .join('\n');
+  .join("\n");
 assignDOM(dom.main.connects(), connectsDOM);
 
 // Internal Links
-const getLinks = links =>
+const getLinks = (links) =>
   links
-    .map(({ name, link }) => `<a href="${link}" class="text-pink-500" >${name}</a>`)
-    .map((link, index, links) => index === links.length - 1 ? link: `${link} - `)
-    .join('\n');
+    .map(
+      ({ name, link }) => `<a href="${link}" class="text-pink-500" >${name}</a>`
+    )
+    .map((link, index, links) =>
+      index === links.length - 1 ? link : `${link} - `
+    )
+    .join("\n");
 assignDOM(dom.main.links(), getLinks(main.links));
-
