@@ -1,7 +1,7 @@
 const main = {
   name: "Roberto Ramírez",
   mail: "robertrafyt2007@gmail.com",
-  img: "./assets/img/user.jpg",
+  img: "https://avatars.githubusercontent.com/u/33938510",
   role: ["Software Engineer"],
   // Refer https://ionicons.com/ and put the icon name inside iconName key
   connects: [
