@@ -43,6 +43,6 @@ const main = {
   ],
   links: [
     { name: "Projects", link: "https://github.com/robertraf?tab=repositories" },
-    { name: "Blogs", link: "https://robertraf.com" },
+    { name: "Blogs", link: "https://robertraf.medium.com" },
   ],
 };
