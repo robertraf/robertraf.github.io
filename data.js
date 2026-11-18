@@ -18,7 +18,7 @@ const main = {
     {
       name: "Linkedin",
       iconName: "logo-linkedin",
-      link: "https://www.linkedin.com/in/roberto-ram%C3%ADrez-b753b9189/",
+      link: "https://www.linkedin.com/in/robertraf",
     },
     /*{
       name: 'StackOverflow',
